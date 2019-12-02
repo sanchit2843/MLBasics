@@ -1,0 +1,8 @@
+hdf5storage
+numpy
+pandas
+keras
+tensorflow
+datetime
+os
+tqdm
