@@ -1,0 +1,7 @@
+{% extends "base.html" %} {% block content %}
+
+  <h1> Result : {{prediction}} </h1>
+  
+  <img src= {{ url_for('static',filename='pred_bar.jpg') }} alt="Prediction" height="500" width="500">
+
+{% endblock %}
